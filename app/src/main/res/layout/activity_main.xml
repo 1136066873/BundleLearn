@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.study.heguodong.MainActivity">
+
+    <Button
+        android:id="@+id/open_own"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开本应用界面"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <Button
+        android:id="@+id/open_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开其他应用界面"
+        android:layout_marginTop="50sp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+
+</RelativeLayout>

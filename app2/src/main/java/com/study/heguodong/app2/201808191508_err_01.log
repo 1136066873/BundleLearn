@@ -1,0 +1,1299 @@
+--------- beginning of main
+07-27 11:22:23.619 E/AudioHardwareTiny(  251): adev_open_input_stream:channel is not support
+07-27 11:22:23.620 W/DeviceHAL(  251): Device 0xb262f000 open_input_stream: Invalid argument
+07-27 11:22:23.620 D/AudioHardwareTiny(  251): pcm_config->rate:44100,in->requested_rate:16000,in->channel_mask:2
+07-27 11:22:23.624 D/AudioHardwareTiny(  251): in->mSpeexFrameSize:192
+07-27 11:22:23.619 I/AudioFlinger(  290): AudioFlinger's thread 0xa77036c0 tid=3967 ready to run
+07-27 11:22:23.633 I/AudioFlinger(  290): AudioFlinger's thread 0xa5e03300 tid=3968 ready to run
+07-27 11:22:23.636 I/system_server(  393): libdebuggerd_client: done dumping process 291
+07-27 11:22:23.637 I/system_server(  393): libdebuggerd_client: started dumping process 292
+07-27 11:22:23.637 I//system/bin/tombstoned(  308): registered intercept for pid 292 and type kDebuggerdNativeBacktrace
+07-27 11:22:23.637 I/libc    (  292): Requested dump for tid 292 (drmserver)
+07-27 11:22:23.669 I/crash_dump32( 3972): obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
+07-27 11:22:23.670 I//system/bin/tombstoned(  308): received crash request for pid 292
+07-27 11:22:23.670 I//system/bin/tombstoned(  308): found intercept fd 512 for pid 292 and type kDebuggerdNativeBacktrace
+07-27 11:22:23.671 I/crash_dump32( 3972): performing dump of process 292 (target tid = 292)
+07-27 11:22:23.709 I/system_server(  393): libdebuggerd_client: done dumping process 292
+07-27 11:22:23.709 I/system_server(  393): libdebuggerd_client: started dumping process 295
+07-27 11:22:23.709 I//system/bin/tombstoned(  308): registered intercept for pid 295 and type kDebuggerdNativeBacktrace
+07-27 11:22:23.710 I/libc    (  295): Requested dump for tid 295 (mediadrmserver)
+07-27 11:22:23.734 I/crash_dump32( 3976): obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
+07-27 11:22:23.735 I//system/bin/tombstoned(  308): received crash request for pid 295
+07-27 11:22:23.735 I//system/bin/tombstoned(  308): found intercept fd 512 for pid 295 and type kDebuggerdNativeBacktrace
+07-27 11:22:23.735 I/crash_dump32( 3976): performing dump of process 295 (target tid = 295)
+07-27 11:22:23.769 I/system_server(  393): libdebuggerd_client: done dumping process 295
+07-27 11:22:23.769 I/system_server(  393): libdebuggerd_client: started dumping process 296
+07-27 11:22:23.770 I//system/bin/tombstoned(  308): registered intercept for pid 296 and type kDebuggerdNativeBacktrace
+07-27 11:22:23.770 I//system/bin/tombstoned(  308): received crash request for pid 296
+07-27 11:22:23.771 I//system/bin/tombstoned(  308): found intercept fd 512 for pid 296 and type kDebuggerdNativeBacktrace
+07-27 11:22:23.774 I/ServiceManager(  228): service 'media.extractor' died
+07-27 11:22:23.774 W//system/bin/tombstoned(  308): crash socket received short read of length 0 (expected 12)
+07-27 11:22:23.774 I/system_server(  393): libdebuggerd_client: done dumping process 296
+07-27 11:22:23.775 I/system_server(  393): libdebuggerd_client: started dumping process 298
+07-27 11:22:23.776 I//system/bin/tombstoned(  308): registered intercept for pid 298 and type kDebuggerdNativeBacktrace
+07-27 11:22:23.776 I/libc    (  298): Requested dump for tid 298 (mediaserver)
+07-27 11:22:23.809 I/crash_dump32( 3980): obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
+07-27 11:22:23.809 I//system/bin/tombstoned(  308): received crash request for pid 298
+07-27 11:22:23.810 I//system/bin/tombstoned(  308): found intercept fd 512 for pid 298 and type kDebuggerdNativeBacktrace
+07-27 11:22:23.810 I/crash_dump32( 3980): performing dump of process 298 (target tid = 298)
+07-27 11:22:23.866 I/system_server(  393): libdebuggerd_client: done dumping process 298
+07-27 11:22:23.866 I/system_server(  393): libdebuggerd_client: started dumping process 305
+07-27 11:22:23.869 I//system/bin/tombstoned(  308): registered intercept for pid 305 and type kDebuggerdNativeBacktrace
+07-27 11:22:23.870 I//system/bin/tombstoned(  308): received crash request for pid 305
+07-27 11:22:23.870 I//system/bin/tombstoned(  308): found intercept fd 512 for pid 305 and type kDebuggerdNativeBacktrace
+07-27 11:22:23.929 I/system_server(  393): libdebuggerd_client: done dumping process 305
+07-27 11:22:23.994 V/MediaUtils( 3978): physMem: 2094264320
+07-27 11:22:23.994 V/MediaUtils( 3978): requested limit: 418852860
+07-27 11:22:23.994 V/MediaUtils( 3978): actual limit: 418852860
+07-27 11:22:23.994 V/MediaUtils( 3978): original limits: 4294967295/4294967295
+07-27 11:22:23.994 V/MediaUtils( 3978): new limits: 418852860/4294967295
+07-27 11:22:24.002 W//system/bin/mediaextractor( 3978): Could not read additional policy file '/vendor/etc/seccomp_policy/mediaextractor.policy'
+07-27 11:22:24.002 W//system/bin/mediaextractor( 3978): libminijail[3978]: allowing syscall: clock_gettime
+07-27 11:22:24.002 W//system/bin/mediaextractor( 3978): libminijail[3978]: allowing syscall: connect
+07-27 11:22:24.002 W//system/bin/mediaextractor( 3978): libminijail[3978]: allowing syscall: fcntl64
+07-27 11:22:24.002 W//system/bin/mediaextractor( 3978): libminijail[3978]: allowing syscall: socket
+07-27 11:22:24.002 W//system/bin/mediaextractor( 3978): libminijail[3978]: allowing syscall: writev
+07-27 11:22:24.003 W//system/bin/mediaextractor( 3978): libminijail[3978]: logging seccomp filter failures
+07-27 11:22:25.611 E/alsa_route(  251): set_controls() can not set ctl RECMIXR BST3 Switch to 0
+07-27 11:22:25.612 D/AudioHardwareTiny(  251): start_output_stream
+07-27 11:22:25.614 D/alsa_route(  251): route_info->sound_card 0, route_info->devices 0  
+07-27 11:22:25.617 D/alsa_route(  251): route_set_controls() set route 0
+07-27 11:22:25.637 W/AudioRecord( 1247): dead IAudioRecord, creating a new one from obtainBuffer()
+07-27 11:22:26.616 E/alsa_route(  251): set_controls() can not set ctl OUT Playback Switch to 1
+07-27 11:22:43.630 D/alsa_route(  251): route_set_controls() set route 25
+07-27 11:22:43.631 W/StreamHAL(  251): Error from HAL stream in function get_presentation_position: Operation not permitted
+07-27 11:22:43.632 W/StreamHAL(  251): Error from HAL stream in function get_presentation_position: Operation not permitted
+07-27 11:22:43.656 W/AudioFlinger(  290): write blocked for 20020 msecs, 3 delayed writes, thread 0xa7a03ec0
+07-27 11:22:46.630 E/alsa_route(  251): set_controls() can not set ctl RECMIXR BST1 Switch to 0
+07-27 11:22:46.638 W/APM_AudioPolicyManager(  290): stopInput() unknown input 118
+07-27 11:22:46.639 W/APM_AudioPolicyManager(  290): releaseInput() releasing unknown input 118
+07-27 11:22:46.640 W/APM_AudioPolicyManager(  290): startInput(142) failed for HOTWORD: other input 134 already started for HOTWORD
+07-27 11:22:46.641 W/AudioRecord( 1247): restoreRecord_l() failed status -38
+07-27 11:22:46.641 E/AudioRecord-JNI( 1247): Error -38 during AudioRecord native read
+07-27 11:22:46.642 I/MicrophoneInputStream( 1247): mic_close  SR : 16000 CC : 16 SO : 1999
+07-27 11:22:46.644 I/MicrophoneInputStream( 1247): mic_started  SR : 16000 CC : 16 SO : 1999
+07-27 11:22:46.644 E/AudioHardwareTiny(  251): adev_open_input_stream:channel is not support
+07-27 11:22:46.644 W/DeviceHAL(  251): Device 0xb262f000 open_input_stream: Invalid argument
+07-27 11:22:46.645 D/AudioHardwareTiny(  251): pcm_config->rate:44100,in->requested_rate:16000,in->channel_mask:2
+07-27 11:22:46.646 D/AudioHardwareTiny(  251): Device     : 0x0
+07-27 11:22:46.646 D/AudioHardwareTiny(  251): SampleRate : 0
+07-27 11:22:46.646 D/AudioHardwareTiny(  251): Channels   : 4
+07-27 11:22:46.646 D/AudioHardwareTiny(  251): Formate    : 0
+07-27 11:22:46.646 D/AudioHardwareTiny(  251): PreiodSize : 0
+07-27 11:22:46.646 E/AudioHardwareTiny(  251): getInputRouteFromDevice:device:80000004
+07-27 11:22:46.647 D/alsa_route(  251): route_info->sound_card 0, route_info->devices 0  
+07-27 11:22:46.648 D/alsa_route(  251): route_set_controls() set route 21
+07-27 11:22:46.659 D/AudioHardwareTiny(  251): in->mSpeexFrameSize:192
+07-27 11:22:46.664 I/AudioFlinger(  290): AudioFlinger's thread 0xa6903780 tid=4006 ready to run
+07-27 11:22:48.647 E/alsa_route(  251): set_controls() can not set ctl RECMIXR BST3 Switch to 0
+07-27 11:22:48.650 D/alsa_route(  251): route_set_controls() set route 24
+07-27 11:22:48.668 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:22:48.668 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:22:48.668 I/GK      (  567): MSG_SET_SYSTEMUI_VISIBILITY
+07-27 11:22:48.679 I/GK      (  567): MSG_APP_TRANSITION_STARTING
+07-27 11:22:48.687 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:22:48.687 I/GK      (  567): MSG_SET_SYSTEMUI_VISIBILITY
+07-27 11:22:48.688 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:22:48.688 I/GK      (  567): MSG_APP_TRANSITION_STARTING
+07-27 11:22:48.689 I/GK      (  567): MSG_APP_TRANSITION_FINISHED
+07-27 11:22:48.689 I/GK      (  567): MSG_APP_TRANSITION_FINISHED
+07-27 11:22:48.689 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:22:48.697 W/SpeechLevelGenerator( 1247): Really low audio levels detected. The audio input may have issues.
+07-27 11:22:48.697 I/MicroDetectionWorker( 1247): onReady
+07-27 11:22:48.711 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:22:48.711 W/android.os.Debug(  393): failed to get memory consumption info: -1
+--------- beginning of system
+07-27 11:22:48.740 D/ZenLog  (  393): config: removeAutomaticZenRules,ZenModeConfig[user=0,allowCalls=true,allowRepeatCallers=false,allowMessages=false,allowCallsFrom=contacts,allowMessagesFrom=contacts,allowReminders=true,allowEvents=true,allowWhenScreenOff=true,allowWhenScreenOn=true,automaticRules={EVENTS_DEFAULT_RULE=ZenRule[enabled=false,snoozing=false,name=Event,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/event?userId=-10000&calendar=&reply=1,condition=Condition[id=condition://android/event?userId=-10000&calendar=&reply=1,summary=...,line1=...,line2=...,icon=0,state=STATE_FALSE,flags=2],component=ComponentInfo{android/com.android.server.notification.EventConditionProvider},id=EVENTS_DEFAULT_RULE,creationTime=1532679230121,enabler=null], SCHEDULED_DEFAULT_RULE_1=ZenRule[enabled=false,snoozing=false,name=Weeknight,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0&exitAtAlarm=false,condition=Condition[id=condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0&exitAtAlarm=false,summary=...,line1=...,line2=...,icon=0,state=STATE_FALSE,flags=2],component=ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider},id=SCHEDULED_DEFAULT_RULE_1,creationTime=1532679230120,enabler=null], SCHEDULED_DEFAULT_RULE_2=ZenRule[enabled=false,snoozing=false,name=Weekend,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=6.7&start=23.30&end=10.0&exitAtAlarm=false,condition=Condition[id=condition://android/schedule?days=6.7&start=23.30&end=10.0&exitAtAlarm=false,summary=...,line1=...,line2=...,icon=0,state=STATE_FALSE,flags=2],component=ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider},id=SCHEDULED_DEFAULT_RULE_2,creationTime=1532679230120,enabler=null]},manualRule=null],Diff[]
+07-27 11:22:48.740 I/ConditionProviders(  393): Disallowing condition provider com.study.heguodong.app2
+07-27 11:22:48.772 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:22:48.772 I/chatty  (  567): uid=10007(com.android.systemui) identical 3 lines
+07-27 11:22:48.776 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:22:48.778 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:22:48.779 E/BufferQueueProducer(  269): [Toast#1] disconnect: not connected (req=1)
+07-27 11:22:48.779 W/libEGL  ( 3660): EGLNativeWindowType 0x959e5808 disconnect failed
+07-27 11:22:48.781 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:22:48.783 W/WindowManager(  393): removeWindowToken: Attempted to remove non-existing token: android.os.Binder@4f89db0
+07-27 11:22:48.786 W/WindowManager(  393): Failed looking up window callers=com.android.server.wm.WindowManagerService.windowForClientLocked:5856 com.android.server.wm.WindowManagerService.removeWindow:1725 com.android.server.wm.Session.remove:222 
+07-27 11:22:48.787 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:22:48.807 I/NotificationService(  393): Cannot find enqueued record for key: 0|com.google.android.packageinstaller|-2147483646|null|10035
+07-27 11:22:48.808 D/ZenLog  (  393): set_zen_mode: off,removeAutomaticZenRules
+07-27 11:22:48.833 I/chatty  (  567): uid=10007(com.android.systemui) identical 1 line
+07-27 11:22:48.833 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:22:48.839 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:22:48.840 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:22:48.846 E/NetworkScheduler(  974): Trying to release unacquired lock: CLIENT_LIB
+07-27 11:22:48.892 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:22:48.892 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:22:48.928 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:22:48.928 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:22:48.963 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:22:48.963 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:22:48.996 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:22:48.996 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:22:49.030 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:22:49.030 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:22:49.063 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:22:49.063 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:22:49.650 E/alsa_route(  251): set_controls() can not set ctl OUT Playback Switch to 0
+07-27 11:22:49.650 D/AudioHardwareTiny(  251): close device
+07-27 11:22:49.655 W/APM_AudioPolicyManager(  290): stopInput() unknown input 126
+07-27 11:22:49.655 W/APM_AudioPolicyManager(  290): releaseInput() releasing unknown input 126
+07-27 11:22:49.655 W/APM_AudioPolicyManager(  290): startInput(150) failed for HOTWORD: other input 134 already started for HOTWORD
+07-27 11:22:49.655 W/AudioRecord( 1247): restoreRecord_l() failed status -38
+07-27 11:22:49.655 E/AudioRecord-JNI( 1247): Error -38 during AudioRecord native read
+07-27 11:22:49.657 I/MicrophoneInputStream( 1247): mic_close  SR : 16000 CC : 16 SO : 1999
+07-27 11:23:11.942 D/AndroidRuntime( 4020): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-27 11:23:11.954 W/app_process( 4020): Could not reserve sentinel fault page
+07-27 11:23:12.139 I/app_process( 4020): The ClassLoaderContext is a special shared library.
+07-27 11:23:12.198 D/AndroidRuntime( 4020): Calling main entry com.android.commands.wm.Wm
+07-27 11:23:12.203 W/WindowManager(  393): Permission Denial: dismissKeyguard from pid=4020, uid=2000 requires android.permission.CONTROL_KEYGUARD
+07-27 11:23:12.204 D/AndroidRuntime( 4020): Shutting down VM
+07-27 11:23:12.304 D/AndroidRuntime( 4028): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-27 11:23:12.313 W/app_process( 4028): Could not reserve sentinel fault page
+07-27 11:23:12.474 I/app_process( 4028): The ClassLoaderContext is a special shared library.
+07-27 11:23:12.525 D/AndroidRuntime( 4028): Calling main entry com.android.commands.pm.Pm
+07-27 11:23:12.533 E/asset   ( 4059): setgid: Operation not permitted
+07-27 11:23:12.699 I/Finsky  ( 1606): [2] com.google.android.finsky.verifier.impl.PackageVerificationReceiver.onReceive(12): Verification requested, id = 11
+07-27 11:23:12.703 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:12.712 I/chatty  ( 1606): uid=10008(com.android.vending) identical 3 lines
+07-27 11:23:12.713 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:12.731 W/Finsky  ( 1606): [241] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:12.734 W/Finsky  ( 1606): [241] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:12.735 I/Finsky  ( 1606): [241] com.google.android.finsky.verifier.impl.ci.a(114): Skipping verification because network inactive
+07-27 11:23:12.736 I/Finsky  ( 1606): [241] com.google.android.finsky.verifier.impl.ci.a(119): Skipping anti malware verification due to pre-check failure
+07-27 11:23:12.736 I/Finsky  ( 1606): [2] com.google.android.finsky.verifier.impl.dr.c(191): Verifying id=11, result=1
+07-27 11:23:12.737 W/Finsky  ( 1606): [241] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:12.741 W/Finsky  ( 1606): [241] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:12.742 I/Finsky  ( 1606): [2] com.google.android.finsky.verifier.impl.dr.c(208): Verification complete: id=11, package_name=com.study.heguodong.app2
+07-27 11:23:12.759 I/PackageManager.DexOptimizer(  393): Running dexopt (dexoptNeeded=1) on: /data/app/com.study.heguodong.app2-0IMCQZeY2sYlek-2nsx4sA==/base.apk pkg=com.study.heguodong.app2 isa=arm dexoptFlags=boot_complete,debuggable,public target-filter=quicken oatDir=/data/app/com.study.heguodong.app2-0IMCQZeY2sYlek-2nsx4sA==/oat sharedLibraries=PCL[]
+07-27 11:23:12.798 I/dex2oat ( 4064): /system/bin/dex2oat --input-vdex-fd=-1 --output-vdex-fd=14 --compiler-filter=quicken --debuggable --classpath-dir=/data/app/com.study.heguodong.app2-0IMCQZeY2sYlek-2nsx4sA== --class-loader-context=PCL[]
+07-27 11:23:12.802 W/dex2oat ( 4064): Could not reserve sentinel fault page
+07-27 11:23:13.561 I/dex2oat ( 4064): dex2oat took 764.056ms (1.375s cpu) (threads: 4) arena alloc=16KB (16416B) java alloc=1750KB (1792888B) native alloc=2018KB (2067112B) free=1565KB (1602904B)
+07-27 11:23:13.725 V/BackupManagerService(  393): restoreAtInstall pkg=com.study.heguodong.app2 token=c restoreSet=0
+07-27 11:23:13.725 V/BackupManagerService(  393): Finishing install immediately
+07-27 11:23:13.730 E/        (  293): Couldn't opendir /data/app/vmdl1281753896.tmp: No such file or directory
+07-27 11:23:13.730 E/installd(  293): Failed to delete /data/app/vmdl1281753896.tmp: No such file or directory
+07-27 11:23:13.732 I/Pm      ( 4028): Package com.study.heguodong.app2 installed in 1204 ms
+07-27 11:23:13.741 D/ImsResolver(  636): maybeAddedImsService, packageName: com.study.heguodong.app2
+07-27 11:23:13.742 W/BroadcastQueue(  393): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.study.heguodong.app2 flg=0x4000010 (has extras) } to com.android.musicfx/.Compatibility$Receiver
+07-27 11:23:13.747 I/CarrierServices( 2404): [2] RcsAutoStartReceiver.b: carrierServicesJibeServiceEnabled changed from true to true
+07-27 11:23:13.748 I/CarrierServices( 2404): [2] RcsAutoStartReceiver.b: enableRcs changed from true to true
+07-27 11:23:13.748 I/CarrierServices( 2404): [2] RcsAutoStartReceiver.b: RcsAutoStartReceiver triggered. Fetching RCS State. Action: android.intent.action.PACKAGE_ADDED
+07-27 11:23:13.756 I/app_process( 4028): System.exit called, status: 0
+07-27 11:23:13.761 I/AndroidRuntime( 4028): VM exiting with result code 0.
+07-27 11:23:13.762 I/InputReader(  393): Reconfiguring input devices.  changes=0x00000010
+07-27 11:23:13.762 D/CarrierConfigLoader(  636): mHandler: 9 phoneId: 0
+07-27 11:23:13.766 I/CarrierServices( 2404): [2] g.a: Migration binding to RcsMigrationService
+07-27 11:23:13.767 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:13.782 I/chatty  ( 1606): uid=10008(com.android.vending) identical 1 line
+07-27 11:23:13.785 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:13.793 I/CarrierServices( 2315): [214] e.a: Sim state is not ready. Returning last known operation mode.
+07-27 11:23:13.798 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:13.800 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:13.801 I/CarrierServices( 2404): [256] bq.a: Saving RCS State
+07-27 11:23:13.802 I/Telecom (  393): DefaultDialerCache: Refreshing default dialer for user 0: now com.google.android.dialer: DDC.oR@AHs
+07-27 11:23:13.802 I/CarrierServices( 2404): [256] bq.a: Old operation mode: 0
+07-27 11:23:13.804 I/CarrierServices( 2404): [256] bq.a: New operation mode: 0
+07-27 11:23:13.819 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:13.841 D/AutofillUI(  393): destroySaveUiUiThread(): already destroyed
+07-27 11:23:13.843 D/AutofillManagerServiceImpl(  393): Set component for user 0 as ServiceInfo{9bfc58d com.google.android.gms.autofill.service.AutofillService}
+07-27 11:23:13.829 I/chatty  ( 1606): uid=10008(com.android.vending) identical 1 line
+07-27 11:23:13.832 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:13.868 I/Finsky  ( 1606): [2] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for auto_install
+07-27 11:23:13.869 I/ProvidersCache( 3741): Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+07-27 11:23:13.876 I/Finsky  ( 1606): [2] com.google.android.finsky.wear.ar.a(80): Connecting to wearable; initiated by: com.google.android.finsky.wear.WearSupportService
+07-27 11:23:13.879 I/Finsky  ( 1606): [2] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for send_installed_apps
+07-27 11:23:13.891 I/Finsky  ( 1606): [2] com.google.android.finsky.externalreferrer.e.a(52): Package state data is missing for com.study.heguodong.app2
+07-27 11:23:13.900 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:13.925 W/BroadcastQueue(  393): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.study.heguodong.app2 flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+07-27 11:23:13.926 W/BroadcastQueue(  393): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.study.heguodong.app2 flg=0x4000010 (has extras) } to com.google.android.ims/.receivers.RcsAutoStartReceiver
+07-27 11:23:13.947 I/WearableService(  974): Wearable Services not starting - Wear is not available on this device.
+07-27 11:23:13.959 W/WearableService(  974): onGetService - Wear is not available on this device.
+07-27 11:23:13.965 E/Finsky  ( 1606): [2] com.google.android.finsky.wear.au.a(3): onConnectionFailed: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+07-27 11:23:13.965 W/Finsky  ( 1606): [2] com.google.android.finsky.wear.cd.run(12): Dropping command=auto_install due to Gms not connected
+07-27 11:23:13.966 I/Finsky  ( 1606): [2] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+07-27 11:23:13.968 W/Finsky  ( 1606): [2] com.google.android.finsky.wear.cd.run(12): Dropping command=send_installed_apps due to Gms not connected
+07-27 11:23:13.969 I/Finsky  ( 1606): [2] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+07-27 11:23:13.992 I/ChromeSync( 1343): [Sync,SyncIntentOperation] Handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.study.heguodong.app2 flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+07-27 11:23:13.997 I/zygote  (  393): Background concurrent copying GC freed 59056(3MB) AllocSpace objects, 31(1452KB) LOS objects, 42% free, 9MB/17MB, paused 115us total 267.207ms
+07-27 11:23:14.013 I/ChromeSync( 1343): [Persistence,AffiliationManager] Fetching affiliations from the server.
+07-27 11:23:14.100 I/PeopleContactsSync( 1343): triggerPendingContactsCleanup: no accounts
+07-27 11:23:14.139 I/ActivityManager(  393): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.study.heguodong.app2/.MainActivity} from uid 2000
+07-27 11:23:14.149 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:23:14.149 E/ActivityManager(  393): getPackageFerformanceMode--ComponentInfo{com.study.heguodong.app2/com.study.heguodong.app2.MainActivity}----com.study.heguodong.app2
+07-27 11:23:14.154 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.155 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.166 E/ActivityManager(  393): getPackageFerformanceMode--ComponentInfo{com.study.heguodong.app2/com.study.heguodong.app2.MainActivity}----com.study.heguodong.app2
+07-27 11:23:14.167 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:23:14.180 I/ActivityManager(  393): Start proc 4095:com.study.heguodong.app2/u0a86 for activity com.study.heguodong.app2/.MainActivity
+07-27 11:23:14.182 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.185 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.187 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.187 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.188 I/zygote  ( 4095): Late-enabling -Xcheck:jni
+07-27 11:23:14.200 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.200 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.218 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:14.221 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x933. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.221 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:14.221 I/[Gralloc](  269): Got handle 6 for fd 106
+07-27 11:23:14.221 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x933. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.221 I/[Gralloc](  269): leave: prime_fd=106,share_attr_fd=113
+07-27 11:23:14.222 I/[Gralloc](  393): Got handle 4 for fd 250
+07-27 11:23:14.222 I/[Gralloc](  393): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x933. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.222 I/[Gralloc](  393): leave: prime_fd=250,share_attr_fd=251
+07-27 11:23:14.248 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.249 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.267 I/Icing   ( 1343): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=32
+07-27 11:23:14.273 I/MicroDetector( 1247): Keeping mic open: false
+07-27 11:23:14.273 I/DeviceStateChecker( 1247): DeviceStateChecker cancelled
+07-27 11:23:14.275 I/AudioController( 1247): internalShutdown
+07-27 11:23:14.277 I/MicroRecognitionRunner( 1247): Stopping hotword detection.
+07-27 11:23:14.278 I/MicroRecognitionRunner( 1247): Detection finished
+07-27 11:23:14.282 I/Icing   ( 1343): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+07-27 11:23:14.285 I/MicrophoneInputStream( 1247): mic_close  SR : 16000 CC : 16 SO : 1999
+07-27 11:23:14.308 D/alsa_route(  251): route_set_controls() set route 25
+07-27 11:23:14.317 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.318 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.326 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.333 I/GK      (  567): MSG_APP_TRANSITION_STARTING
+07-27 11:23:14.333 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.342 I/Icing   ( 1343): Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+07-27 11:23:14.350 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.350 I/GK      (  567): MSG_SET_SYSTEMUI_VISIBILITY
+07-27 11:23:14.351 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.378 E/ChromeSync( 1343): [Sync,SyncIntentOperation] Error handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.study.heguodong.app2 flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+07-27 11:23:14.380 E/BufferQueueProducer(  269): [com.android.launcher3/com.android.launcher3.searchlauncher.SearchLauncher#0] disconnect: not connected (req=1)
+07-27 11:23:14.380 W/libEGL  ( 1247): EGLNativeWindowType 0xa656c808 disconnect failed
+07-27 11:23:14.384 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.385 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.397 E/BufferQueueProducer(  269): [com.android.launcher3/com.android.launcher3.searchlauncher.SearchLauncher#1] disconnect: not connected (req=1)
+07-27 11:23:14.397 W/libEGL  ( 1097): EGLNativeWindowType 0x8d245008 disconnect failed
+07-27 11:23:14.414 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.414 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.422 I/Icing   ( 1343): Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+07-27 11:23:14.539 E/heguodong( 4095): ---------------------  201808191304 22222222--------------------- 未传递过来数据 ---------------------
+07-27 11:23:14.569 D/OpenGLRenderer( 4095): HWUI GL Pipeline
+07-27 11:23:14.601 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.604 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.620 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.620 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.628 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.629 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.629 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.639 I/mali_so ( 4095): [File] : hardware/rockchip/mali/mali_so_src_of_midgard/driver/product/base/src/mali_base_kbase.c; [Line] : 876; [Func] : base_context_deal_with_version_affairs_rk_ext;
+07-27 11:23:14.639 I/mali_so ( 4095): arm_release_ver of this mali_so is 'r18p0-01rel0', rk_so_ver is '9@0'.
+07-27 11:23:14.640 D/mali_so ( 4095): [File] : hardware/rockchip/mali/mali_so_src_of_midgard/driver/product/base/src/mali_base_kbase.c; [Line] : 881; [Func] : base_context_deal_with_version_affairs_rk_ext;
+07-27 11:23:14.640 D/mali_so ( 4095): current process is NOT sf, to bail out.
+07-27 11:23:14.655 I/com.study.heguodong.app2( 4095): android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+07-27 11:23:14.655 I/OpenGLRenderer( 4095): Initialized EGL, version 1.4
+07-27 11:23:14.655 D/OpenGLRenderer( 4095): Swap behavior 0
+07-27 11:23:14.656 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:14.658 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.658 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:14.658 I/[Gralloc](  269): Got handle 8 for fd 98
+07-27 11:23:14.658 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.658 I/[Gralloc](  269): leave: prime_fd=98,share_attr_fd=100
+07-27 11:23:14.669 I/[Gralloc](  260): Got handle 1 for fd 49
+07-27 11:23:14.670 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x933. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.670 I/[Gralloc](  260): leave: prime_fd=49,share_attr_fd=78
+07-27 11:23:14.674 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:14.675 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.675 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:14.675 I/[Gralloc](  269): Got handle 12 for fd 95
+07-27 11:23:14.675 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.675 I/[Gralloc](  269): leave: prime_fd=95,share_attr_fd=96
+07-27 11:23:14.689 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:14.691 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.691 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:14.691 I/[Gralloc](  269): Got handle 16 for fd 118
+07-27 11:23:14.691 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.691 I/[Gralloc](  269): leave: prime_fd=118,share_attr_fd=120
+07-27 11:23:14.708 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:14.710 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.710 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:14.710 I/[Gralloc](  269): Got handle 17 for fd 125
+07-27 11:23:14.710 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.710 I/[Gralloc](  269): leave: prime_fd=125,share_attr_fd=138
+07-27 11:23:14.711 D/mali_winsys( 4095): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+07-27 11:23:14.770 I/GK      (  567): MSG_APP_TRANSITION_FINISHED
+07-27 11:23:14.777 I/GK      (  567): MSG_SHOW_IME_BUTTON
+07-27 11:23:14.787 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.788 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.857 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:14.858 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.858 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:14.858 I/[Gralloc](  269): Got handle 7 for fd 102
+07-27 11:23:14.858 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.858 I/[Gralloc](  269): leave: prime_fd=102,share_attr_fd=115
+07-27 11:23:14.863 I/[Gralloc]( 4095): Got handle 1 for fd 56
+07-27 11:23:14.863 I/[Gralloc]( 4095): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.863 I/[Gralloc]( 4095): leave: prime_fd=56,share_attr_fd=57
+07-27 11:23:14.930 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.930 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.931 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.932 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.933 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:14.934 I/ActivityManager(  393): Displayed com.study.heguodong.app2/.MainActivity: +765ms
+07-27 11:23:14.935 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.935 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:14.936 I/[Gralloc](  269): Got handle 11 for fd 68
+07-27 11:23:14.936 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.936 I/[Gralloc](  269): leave: prime_fd=68,share_attr_fd=120
+07-27 11:23:14.936 I/[Gralloc]( 4095): Got handle 2 for fd 60
+07-27 11:23:14.937 I/[Gralloc]( 4095): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:14.937 I/[Gralloc]( 4095): leave: prime_fd=60,share_attr_fd=61
+07-27 11:23:14.959 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.959 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:14.960 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:14.961 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:15.038 I/[Gralloc](  260): Got handle 6 for fd 45
+07-27 11:23:15.039 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:15.039 I/[Gralloc](  260): leave: prime_fd=45,share_attr_fd=51
+07-27 11:23:15.113 I/GK      (  567): MSG_APP_TRANSITION_FINISHED
+07-27 11:23:15.118 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:15.118 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:15.151 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:15.153 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:15.155 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:15.155 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:15.244 I/WifiService(  393): getWifiEnabledState uid=10034
+07-27 11:23:15.251 W/SearchService( 1247): Abort, client detached.
+07-27 11:23:15.431 I/Icing   ( 1343): Indexing 7139D6E4127A4509ECC6E02EA91341B28179F511 from com.google.android.gms
+07-27 11:23:15.497 I/Icing   ( 1343): Indexing done 7139D6E4127A4509ECC6E02EA91341B28179F511
+07-27 11:23:16.307 E/alsa_route(  251): set_controls() can not set ctl RECMIXR BST1 Switch to 0
+07-27 11:23:18.741 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:18.742 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:19.004 I/WearableService(  974): Wearable Services stopping
+07-27 11:23:19.008 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:19.008 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:25.466 D/AndroidRuntime( 4126): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-27 11:23:25.476 W/app_process( 4126): Could not reserve sentinel fault page
+07-27 11:23:25.634 I/app_process( 4126): The ClassLoaderContext is a special shared library.
+07-27 11:23:25.685 D/AndroidRuntime( 4126): Calling main entry com.android.commands.wm.Wm
+07-27 11:23:25.688 W/WindowManager(  393): Permission Denial: dismissKeyguard from pid=4126, uid=2000 requires android.permission.CONTROL_KEYGUARD
+07-27 11:23:25.688 D/AndroidRuntime( 4126): Shutting down VM
+07-27 11:23:25.734 D/AndroidRuntime( 4134): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-27 11:23:25.744 W/app_process( 4134): Could not reserve sentinel fault page
+07-27 11:23:25.886 I/app_process( 4134): The ClassLoaderContext is a special shared library.
+07-27 11:23:25.931 D/AndroidRuntime( 4134): Calling main entry com.android.commands.pm.Pm
+07-27 11:23:25.938 E/asset   ( 4151): setgid: Operation not permitted
+07-27 11:23:26.077 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:26.077 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:26.089 I/Finsky  ( 1606): [2] com.google.android.finsky.verifier.impl.PackageVerificationReceiver.onReceive(12): Verification requested, id = 12
+07-27 11:23:26.093 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:26.099 I/chatty  ( 1606): uid=10008(com.android.vending) identical 3 lines
+07-27 11:23:26.100 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:26.109 W/Finsky  ( 1606): [242] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:26.115 W/Finsky  ( 1606): [242] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:26.117 I/Finsky  ( 1606): [242] com.google.android.finsky.verifier.impl.ci.a(114): Skipping verification because network inactive
+07-27 11:23:26.117 I/Finsky  ( 1606): [242] com.google.android.finsky.verifier.impl.ci.a(119): Skipping anti malware verification due to pre-check failure
+07-27 11:23:26.118 I/Finsky  ( 1606): [2] com.google.android.finsky.verifier.impl.dr.c(191): Verifying id=12, result=1
+07-27 11:23:26.120 W/Finsky  ( 1606): [242] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:26.122 W/Finsky  ( 1606): [242] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:26.123 I/Finsky  ( 1606): [2] com.google.android.finsky.verifier.impl.dr.c(208): Verification complete: id=12, package_name=com.study.heguodong
+07-27 11:23:26.131 I/PackageManager.DexOptimizer(  393): Running dexopt (dexoptNeeded=1) on: /data/app/com.study.heguodong-Iec-6MM47xG5CYJ2Rlt9xQ==/base.apk pkg=com.study.heguodong isa=arm dexoptFlags=boot_complete,debuggable,public target-filter=quicken oatDir=/data/app/com.study.heguodong-Iec-6MM47xG5CYJ2Rlt9xQ==/oat sharedLibraries=PCL[]
+07-27 11:23:26.161 I/dex2oat ( 4156): /system/bin/dex2oat --input-vdex-fd=-1 --output-vdex-fd=14 --compiler-filter=quicken --debuggable --classpath-dir=/data/app/com.study.heguodong-Iec-6MM47xG5CYJ2Rlt9xQ== --class-loader-context=PCL[]
+07-27 11:23:26.164 W/dex2oat ( 4156): Could not reserve sentinel fault page
+07-27 11:23:26.836 I/dex2oat ( 4156): dex2oat took 676.359ms (1.261s cpu) (threads: 4) arena alloc=16KB (16504B) java alloc=1767KB (1809656B) native alloc=2018KB (2067224B) free=1565KB (1602792B)
+07-27 11:23:26.983 V/BackupManagerService(  393): restoreAtInstall pkg=com.study.heguodong token=d restoreSet=0
+07-27 11:23:26.983 V/BackupManagerService(  393): Finishing install immediately
+07-27 11:23:26.987 E/        (  293): Couldn't opendir /data/app/vmdl669630058.tmp: No such file or directory
+07-27 11:23:26.987 E/installd(  293): Failed to delete /data/app/vmdl669630058.tmp: No such file or directory
+07-27 11:23:26.990 I/Pm      ( 4134): Package com.study.heguodong installed in 1056 ms
+07-27 11:23:26.994 D/PackageInstaller(  393): Ignoring abandon after commit relinquished control
+07-27 11:23:26.996 I/app_process( 4134): System.exit called, status: 0
+07-27 11:23:26.996 I/AndroidRuntime( 4134): VM exiting with result code 0.
+07-27 11:23:27.002 I/InputReader(  393): Reconfiguring input devices.  changes=0x00000010
+07-27 11:23:27.014 I/CarrierServices( 2404): [2] RcsAutoStartReceiver.b: carrierServicesJibeServiceEnabled changed from true to true
+07-27 11:23:27.015 I/CarrierServices( 2404): [2] RcsAutoStartReceiver.b: enableRcs changed from true to true
+07-27 11:23:27.015 I/CarrierServices( 2404): [2] RcsAutoStartReceiver.b: RcsAutoStartReceiver triggered. Fetching RCS State. Action: android.intent.action.PACKAGE_ADDED
+07-27 11:23:27.017 D/ImsResolver(  636): maybeAddedImsService, packageName: com.study.heguodong
+07-27 11:23:27.017 W/BroadcastQueue(  393): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.study.heguodong flg=0x4000010 (has extras) } to com.android.musicfx/.Compatibility$Receiver
+07-27 11:23:27.022 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:27.031 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:27.031 D/CarrierConfigLoader(  636): mHandler: 9 phoneId: 0
+07-27 11:23:27.033 I/CarrierServices( 2404): [2] g.a: Migration binding to RcsMigrationService
+07-27 11:23:27.038 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:27.044 I/CarrierServices( 2315): [214] e.a: Sim state is not ready. Returning last known operation mode.
+07-27 11:23:27.047 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:27.047 I/CarrierServices( 2404): [257] bq.a: Saving RCS State
+07-27 11:23:27.048 I/CarrierServices( 2404): [257] bq.a: Old operation mode: 0
+07-27 11:23:27.048 I/CarrierServices( 2404): [257] bq.a: New operation mode: 0
+07-27 11:23:27.049 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:27.076 I/Telecom (  393): DefaultDialerCache: Refreshing default dialer for user 0: now com.google.android.dialer: DDC.oR@AH4
+07-27 11:23:27.056 I/chatty  ( 1606): uid=10008(com.android.vending) identical 2 lines
+07-27 11:23:27.060 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:27.095 I/Finsky  ( 1606): [2] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for auto_install
+07-27 11:23:27.096 I/ProvidersCache( 3741): Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+07-27 11:23:27.100 I/Finsky  ( 1606): [2] com.google.android.finsky.wear.ar.a(80): Connecting to wearable; initiated by: com.google.android.finsky.wear.WearSupportService
+07-27 11:23:27.104 I/Finsky  ( 1606): [2] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for send_installed_apps
+07-27 11:23:27.122 I/Finsky  ( 1606): [2] com.google.android.finsky.externalreferrer.e.a(52): Package state data is missing for com.study.heguodong
+07-27 11:23:27.134 D/AutofillUI(  393): destroySaveUiUiThread(): already destroyed
+07-27 11:23:27.137 D/AutofillManagerServiceImpl(  393): Set component for user 0 as ServiceInfo{e6c952b com.google.android.gms.autofill.service.AutofillService}
+07-27 11:23:27.138 W/BroadcastQueue(  393): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.study.heguodong flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+07-27 11:23:27.138 W/BroadcastQueue(  393): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.study.heguodong flg=0x4000010 (has extras) } to com.google.android.ims/.receivers.RcsAutoStartReceiver
+07-27 11:23:27.139 W/Finsky  ( 1606): [2] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+07-27 11:23:27.148 I/WearableService(  974): Wearable Services not starting - Wear is not available on this device.
+07-27 11:23:27.163 I/ChromeSync( 1343): [Sync,SyncIntentOperation] Handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.study.heguodong flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+07-27 11:23:27.163 W/WearableService(  974): onGetService - Wear is not available on this device.
+07-27 11:23:27.164 I/ChromeSync( 1343): [Persistence,AffiliationManager] Fetching affiliations from the server.
+07-27 11:23:27.166 E/Finsky  ( 1606): [2] com.google.android.finsky.wear.au.a(3): onConnectionFailed: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+07-27 11:23:27.166 W/Finsky  ( 1606): [2] com.google.android.finsky.wear.cd.run(12): Dropping command=auto_install due to Gms not connected
+07-27 11:23:27.177 I/Finsky  ( 1606): [2] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+07-27 11:23:27.182 W/Finsky  ( 1606): [2] com.google.android.finsky.wear.cd.run(12): Dropping command=send_installed_apps due to Gms not connected
+07-27 11:23:27.182 I/Finsky  ( 1606): [2] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+07-27 11:23:27.217 I/zygote  (  393): Background concurrent copying GC freed 52361(2MB) AllocSpace objects, 33(1492KB) LOS objects, 42% free, 10MB/18MB, paused 167us total 226.627ms
+07-27 11:23:27.219 I/PeopleContactsSync( 1343): triggerPendingContactsCleanup: no accounts
+07-27 11:23:27.272 I/Icing   ( 1343): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=32
+07-27 11:23:27.273 I/Icing   ( 1343): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+07-27 11:23:27.303 I/Icing   ( 1343): Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+07-27 11:23:27.322 I/Icing   ( 1343): Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+07-27 11:23:27.338 E/ChromeSync( 1343): [Sync,SyncIntentOperation] Error handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.study.heguodong flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+07-27 11:23:27.345 I/ActivityManager(  393): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.study.heguodong/.MainActivity} from uid 2000
+07-27 11:23:27.351 E/ActivityManager(  393): getPackageFerformanceMode--ComponentInfo{com.study.heguodong/com.study.heguodong.MainActivity}----com.study.heguodong
+07-27 11:23:27.351 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:23:27.353 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:27.354 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:27.355 E/ActivityManager(  393): getPackageFerformanceMode--ComponentInfo{com.study.heguodong/com.study.heguodong.MainActivity}----com.study.heguodong
+07-27 11:23:27.356 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:23:27.367 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:27.367 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:27.369 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:27.370 I/ActivityManager(  393): Start proc 4185:com.study.heguodong/u0a87 for activity com.study.heguodong/.MainActivity
+07-27 11:23:27.371 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:27.374 I/zygote  ( 4185): Late-enabling -Xcheck:jni
+07-27 11:23:27.384 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:27.385 I/[Gralloc](  259): leave, w : 1152, h : 583, format : 0x1,internal_format : 0x1, usage : 0x333. size=2686464,pixel_stride=1152,byte_stride=4608
+07-27 11:23:27.385 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:27.385 I/[Gralloc](  393): Got handle 4 for fd 249
+07-27 11:23:27.385 I/[Gralloc](  393): leave, w : 1152, h : 583, format : 0x1,internal_format : 0x1, usage : 0x333. size=2686464,pixel_stride=1152,byte_stride=4608
+07-27 11:23:27.385 I/[Gralloc](  393): leave: prime_fd=249,share_attr_fd=251
+07-27 11:23:27.385 I/[Gralloc](  269): Got handle 6 for fd 135
+07-27 11:23:27.385 I/[Gralloc](  269): leave, w : 1152, h : 583, format : 0x1,internal_format : 0x1, usage : 0x333. size=2686464,pixel_stride=1152,byte_stride=4608
+07-27 11:23:27.386 I/[Gralloc](  269): leave: prime_fd=135,share_attr_fd=139
+07-27 11:23:27.412 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:27.413 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x933. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.414 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:27.414 I/[Gralloc](  269): Got handle 6 for fd 131
+07-27 11:23:27.414 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x933. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.414 I/[Gralloc](  269): leave: prime_fd=131,share_attr_fd=132
+07-27 11:23:27.415 I/[Gralloc](  393): Got handle 5 for fd 264
+07-27 11:23:27.415 I/[Gralloc](  393): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x933. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.415 I/[Gralloc](  393): leave: prime_fd=264,share_attr_fd=265
+07-27 11:23:27.436 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:27.436 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:27.440 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:27.441 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:27.448 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:27.452 I/GK      (  567): MSG_APP_TRANSITION_STARTING
+07-27 11:23:27.452 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:27.455 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:27.456 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:27.467 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:27.467 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:27.476 W/asset   (  567): Asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:27.476 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk
+07-27 11:23:27.476 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong.app2
+07-27 11:23:27.477 W/asset   (  567): Asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:27.477 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk
+07-27 11:23:27.477 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong.app2
+07-27 11:23:27.477 W/asset   (  567): Asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:27.477 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk
+07-27 11:23:27.477 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong.app2
+07-27 11:23:27.478 W/asset   (  567): Asset path /data/app/com.study.heguodong-GH4KCFxkNyTsq8OaOTigaQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:27.478 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong-GH4KCFxkNyTsq8OaOTigaQ==/base.apk
+07-27 11:23:27.478 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong
+07-27 11:23:27.478 W/asset   (  567): Asset path /data/app/com.study.heguodong-GH4KCFxkNyTsq8OaOTigaQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:27.478 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong-GH4KCFxkNyTsq8OaOTigaQ==/base.apk
+07-27 11:23:27.478 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong
+07-27 11:23:27.478 W/asset   (  567): Asset path /data/app/com.study.heguodong-GH4KCFxkNyTsq8OaOTigaQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:27.479 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong-GH4KCFxkNyTsq8OaOTigaQ==/base.apk
+07-27 11:23:27.479 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong
+07-27 11:23:27.486 W/asset   (  567): Asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:27.486 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk
+07-27 11:23:27.486 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong.app2
+07-27 11:23:27.491 E/BufferQueueProducer(  269): [com.study.heguodong.app2/com.study.heguodong.app2.MainActivity#0] disconnect: not connected (req=1)
+07-27 11:23:27.492 W/libEGL  ( 4095): EGLNativeWindowType 0xa657f008 disconnect failed
+07-27 11:23:27.497 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:27.498 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:27.710 D/OpenGLRenderer( 4185): HWUI GL Pipeline
+07-27 11:23:27.768 I/[Gralloc](  260): Got handle 1 for fd 46
+07-27 11:23:27.768 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x933. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.768 I/[Gralloc](  260): leave: prime_fd=46,share_attr_fd=61
+07-27 11:23:27.773 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:27.773 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:27.779 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:27.779 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:27.780 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:27.794 I/mali_so ( 4185): [File] : hardware/rockchip/mali/mali_so_src_of_midgard/driver/product/base/src/mali_base_kbase.c; [Line] : 876; [Func] : base_context_deal_with_version_affairs_rk_ext;
+07-27 11:23:27.794 I/mali_so ( 4185): arm_release_ver of this mali_so is 'r18p0-01rel0', rk_so_ver is '9@0'.
+07-27 11:23:27.794 D/mali_so ( 4185): [File] : hardware/rockchip/mali/mali_so_src_of_midgard/driver/product/base/src/mali_base_kbase.c; [Line] : 881; [Func] : base_context_deal_with_version_affairs_rk_ext;
+07-27 11:23:27.794 D/mali_so ( 4185): current process is NOT sf, to bail out.
+07-27 11:23:27.800 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:27.802 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.802 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:27.803 I/[Gralloc](  269): Got handle 7 for fd 98
+07-27 11:23:27.803 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.803 I/[Gralloc](  269): leave: prime_fd=98,share_attr_fd=100
+07-27 11:23:27.811 I/com.study.heguodong( 4185): android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+07-27 11:23:27.811 I/OpenGLRenderer( 4185): Initialized EGL, version 1.4
+07-27 11:23:27.811 D/OpenGLRenderer( 4185): Swap behavior 0
+07-27 11:23:27.822 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:27.824 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.824 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:27.824 I/[Gralloc](  269): Got handle 8 for fd 96
+07-27 11:23:27.824 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.824 I/[Gralloc](  269): leave: prime_fd=96,share_attr_fd=106
+07-27 11:23:27.841 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:27.843 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.843 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:27.843 I/[Gralloc](  269): Got handle 12 for fd 123
+07-27 11:23:27.844 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.844 I/[Gralloc](  269): leave: prime_fd=123,share_attr_fd=125
+07-27 11:23:27.856 W/ViewRootImpl[SearchLauncher]( 1097): Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=1380.1311, y[0]=614.88745, toolType[0]=TOOL_TYPE_MOUSE, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=11420109, downTime=11324005, deviceId=2, source=0x2002 }
+07-27 11:23:27.861 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:27.863 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.863 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:27.863 I/[Gralloc](  269): Got handle 16 for fd 140
+07-27 11:23:27.863 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.863 I/[Gralloc](  269): leave: prime_fd=140,share_attr_fd=141
+07-27 11:23:27.864 D/mali_winsys( 4185): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+07-27 11:23:27.870 I/[Gralloc](  260): Got handle 11 for fd 54
+07-27 11:23:27.871 I/[Gralloc](  260): leave, w : 33, h : 42, format : 0x1,internal_format : 0x1, usage : 0x8933. size=8064,pixel_stride=48,byte_stride=192
+07-27 11:23:27.871 I/[Gralloc](  260): leave: prime_fd=54,share_attr_fd=82
+07-27 11:23:27.977 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:27.978 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.978 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:27.979 I/[Gralloc](  269): Got handle 16 for fd 139
+07-27 11:23:27.979 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.979 I/[Gralloc](  269): leave: prime_fd=139,share_attr_fd=140
+07-27 11:23:27.982 I/[Gralloc]( 4185): Got handle 1 for fd 55
+07-27 11:23:27.982 I/[Gralloc]( 4185): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:27.982 I/[Gralloc]( 4185): leave: prime_fd=55,share_attr_fd=56
+07-27 11:23:28.059 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:28.061 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:28.062 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:28.063 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:28.064 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:28.065 I/ActivityManager(  393): Displayed com.study.heguodong/.MainActivity: +704ms
+07-27 11:23:28.066 I/GK      (  567): MSG_SHOW_IME_BUTTON
+07-27 11:23:28.074 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:28.074 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:28.095 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:28.096 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:28.096 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:28.096 I/[Gralloc](  269): Got handle 12 for fd 124
+07-27 11:23:28.097 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:28.097 I/[Gralloc](  269): leave: prime_fd=124,share_attr_fd=125
+07-27 11:23:28.097 I/[Gralloc]( 4185): Got handle 2 for fd 60
+07-27 11:23:28.097 I/[Gralloc]( 4185): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:28.097 I/[Gralloc]( 4185): leave: prime_fd=60,share_attr_fd=61
+07-27 11:23:28.124 I/[Gralloc](  260): Got handle 6 for fd 50
+07-27 11:23:28.124 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:28.124 I/[Gralloc](  260): leave: prime_fd=50,share_attr_fd=51
+07-27 11:23:28.141 I/[Gralloc](  260): Got handle 14 for fd 99
+07-27 11:23:28.141 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:28.141 I/[Gralloc](  260): leave: prime_fd=99,share_attr_fd=100
+07-27 11:23:28.184 I/GK      (  567): MSG_APP_TRANSITION_FINISHED
+07-27 11:23:28.199 I/GK      (  567): MSG_APP_TRANSITION_FINISHED
+07-27 11:23:28.199 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:28.199 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:28.264 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:28.265 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:28.270 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:28.270 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:28.275 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:28.275 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:28.326 I/Icing   ( 1343): Indexing 7139D6E4127A4509ECC6E02EA91341B28179F511 from com.google.android.gms
+07-27 11:23:28.356 I/Icing   ( 1343): Indexing done 7139D6E4127A4509ECC6E02EA91341B28179F511
+07-27 11:23:28.500 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:28.500 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:28.815 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:28.815 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:29.057 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:29.057 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:29.276 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:29.276 I/[Gralloc](  259): leave, w : 38, h : 38, format : 0x1,internal_format : 0x1, usage : 0x8933. size=7296,pixel_stride=48,byte_stride=192
+07-27 11:23:29.277 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:29.279 I/[Gralloc](  269): Got handle 6 for fd 48
+07-27 11:23:29.279 I/[Gralloc](  269): leave, w : 38, h : 38, format : 0x1,internal_format : 0x1, usage : 0x8933. size=7296,pixel_stride=48,byte_stride=192
+07-27 11:23:29.279 I/[Gralloc](  269): leave: prime_fd=48,share_attr_fd=94
+07-27 11:23:29.280 I/[Gralloc](  393): Got handle 2 for fd 257
+07-27 11:23:29.280 I/[Gralloc](  393): leave, w : 38, h : 38, format : 0x1,internal_format : 0x1, usage : 0x8933. size=7296,pixel_stride=48,byte_stride=192
+07-27 11:23:29.280 I/[Gralloc](  393): leave: prime_fd=257,share_attr_fd=261
+07-27 11:23:29.283 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:29.286 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:29.286 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:29.286 I/[Gralloc](  269): Got handle 8 for fd 120
+07-27 11:23:29.286 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:29.286 I/[Gralloc](  269): leave: prime_fd=120,share_attr_fd=123
+07-27 11:23:29.287 I/[Gralloc]( 4185): Got handle 3 for fd 63
+07-27 11:23:29.287 I/[Gralloc]( 4185): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:29.287 I/[Gralloc]( 4185): leave: prime_fd=63,share_attr_fd=64
+07-27 11:23:29.291 I/[Gralloc](  260): Got handle 1 for fd 36
+07-27 11:23:29.291 I/[Gralloc](  260): leave, w : 38, h : 38, format : 0x1,internal_format : 0x1, usage : 0x8933. size=7296,pixel_stride=48,byte_stride=192
+07-27 11:23:29.291 I/[Gralloc](  260): leave: prime_fd=36,share_attr_fd=55
+07-27 11:23:29.292 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:29.292 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:29.315 I/[Gralloc](  260): Got handle 11 for fd 60
+07-27 11:23:29.315 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:29.315 I/[Gralloc](  260): leave: prime_fd=60,share_attr_fd=72
+07-27 11:23:29.322 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:29.324 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:29.324 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:29.325 I/[Gralloc](  269): Got handle 7 for fd 28
+07-27 11:23:29.325 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:29.325 I/[Gralloc](  269): leave: prime_fd=28,share_attr_fd=32
+07-27 11:23:29.325 I/[Gralloc]( 4185): Got handle 4 for fd 66
+07-27 11:23:29.325 I/[Gralloc]( 4185): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:29.325 I/[Gralloc]( 4185): leave: prime_fd=66,share_attr_fd=67
+07-27 11:23:29.358 I/[Gralloc](  260): Got handle 16 for fd 61
+07-27 11:23:29.358 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:29.358 I/[Gralloc](  260): leave: prime_fd=61,share_attr_fd=65
+07-27 11:23:29.540 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:29.540 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:29.600 D/StudioProfiler( 4403): GetAddDataPath /data/data/com.study.heguodong
+07-27 11:23:29.657 V/StudioProfiler( 4185): StudioProfilers agent attached.
+07-27 11:23:29.770 V/StudioProfiler( 4185): Acquiring Application for Events
+07-27 11:23:29.834 V/StudioProfiler( 4185): Transformed class: java/net/URL
+07-27 11:23:29.834 W/com.study.heguodong( 4185): Current dex file has more than one class in it. Calling RetransformClasses on this class might fail if no transformations are applied to it!
+07-27 11:23:29.839 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:29.839 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:30.056 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:30.056 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:30.233 V/StudioProfiler( 4185): Memory control stream started.
+07-27 11:23:30.234 I/Choreographer( 4185): Skipped 34 frames!  The application may be doing too much work on its main thread.
+07-27 11:23:27.859 I/chatty  ( 1097): uid=10026(com.android.launcher3) identical 2 lines
+07-27 11:23:27.859 W/ViewRootImpl[SearchLauncher]( 1097): Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=1380.1311, y[0]=614.88745, toolType[0]=TOOL_TYPE_MOUSE, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=11420109, downTime=11324005, deviceId=2, source=0x2002 }
+07-27 11:23:30.264 I/ActivityManager(  393): Waited long enough for: ServiceRecord{66c4f67 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.service.SearchService}
+07-27 11:23:30.310 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:30.310 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:30.564 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:30.564 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:30.802 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:30.802 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:31.055 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:31.055 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:31.273 D/GK      (  567): MotionEvent -- 4
+07-27 11:23:31.274 D/GK      (  567): SlideBottomLayout -- dispatchTouchEvent = false
+07-27 11:23:31.288 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:31.288 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:31.302 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:31.302 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:31.393 E/heguodong( 4185): ---------------------  201808191304 11111111--------------------- startActivity ---------------------
+07-27 11:23:31.394 D/AudioHardwareTiny(  251): start_output_stream
+07-27 11:23:31.395 D/alsa_route(  251): route_info->sound_card 0, route_info->devices 0  
+07-27 11:23:31.396 D/alsa_route(  251): route_set_controls() set route 0
+07-27 11:23:31.414 I/ActivityManager(  393): START u0 {cmp=com.study.heguodong/.SecondActivity (has extras)} from uid 10087
+07-27 11:23:31.416 E/ActivityManager(  393): getPackageFerformanceMode--ComponentInfo{com.study.heguodong/com.study.heguodong.SecondActivity}----com.study.heguodong
+07-27 11:23:31.419 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:23:31.420 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:31.420 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:31.440 E/ActivityManager(  393): getPackageFerformanceMode--ComponentInfo{com.study.heguodong/com.study.heguodong.SecondActivity}----com.study.heguodong
+07-27 11:23:31.454 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:23:31.454 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:31.454 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:31.536 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:31.536 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:31.547 W/asset   (  567): Asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:31.547 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk
+07-27 11:23:31.547 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong.app2
+07-27 11:23:31.548 W/asset   (  567): Asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:31.548 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk
+07-27 11:23:31.548 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong.app2
+07-27 11:23:31.552 E/heguodong( 4185): ---------------------  201808191304 111111111--------------------- boom ---------------------Boom{name='YangYang', age='27', hair_lenth='chang', haire_color='zong'}
+07-27 11:23:31.623 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:31.623 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:31.632 I/zygote  ( 4185): Do partial code cache collection, code=31KB, data=27KB
+07-27 11:23:31.633 I/zygote  ( 4185): After code cache collection, code=31KB, data=27KB
+07-27 11:23:31.634 I/zygote  ( 4185): Increasing code cache capacity to 128KB
+07-27 11:23:31.640 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:31.640 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:31.647 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:31.648 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.648 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:31.649 I/[Gralloc](  269): Got handle 11 for fd 100
+07-27 11:23:31.649 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.649 I/[Gralloc](  269): leave: prime_fd=100,share_attr_fd=132
+07-27 11:23:31.661 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:31.663 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.663 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:31.663 I/[Gralloc](  269): Got handle 17 for fd 138
+07-27 11:23:31.663 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.663 I/[Gralloc](  269): leave: prime_fd=138,share_attr_fd=144
+07-27 11:23:31.678 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:31.679 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.679 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:31.680 I/[Gralloc](  269): Got handle 18 for fd 102
+07-27 11:23:31.680 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.680 I/[Gralloc](  269): leave: prime_fd=102,share_attr_fd=143
+07-27 11:23:31.692 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:31.694 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.694 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:31.694 I/[Gralloc](  269): Got handle 20 for fd 155
+07-27 11:23:31.694 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.694 I/[Gralloc](  269): leave: prime_fd=155,share_attr_fd=156
+07-27 11:23:31.696 D/mali_winsys( 4185): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+07-27 11:23:31.706 V/StudioProfiler( 4185): Live memory tracking disabled.
+07-27 11:23:31.715 V/StudioProfiler( 4185): Live memory tracking enabled.
+07-27 11:23:31.715 V/StudioProfiler( 4185): JNIEnv not attached
+07-27 11:23:31.745 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:31.746 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.746 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:31.746 I/[Gralloc](  269): Got handle 20 for fd 158
+07-27 11:23:31.747 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.747 I/[Gralloc](  269): leave: prime_fd=158,share_attr_fd=159
+07-27 11:23:31.747 I/[Gralloc]( 4185): Got handle 5 for fd 78
+07-27 11:23:31.747 I/[Gralloc]( 4185): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.747 I/[Gralloc]( 4185): leave: prime_fd=78,share_attr_fd=79
+07-27 11:23:31.760 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:31.761 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:31.769 I/ActivityManager(  393): Displayed com.study.heguodong/.SecondActivity: +326ms
+07-27 11:23:31.774 I/GK      (  567): MSG_APP_TRANSITION_STARTING
+07-27 11:23:31.775 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:31.775 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:31.775 I/[Gralloc](  260): Got handle 18 for fd 78
+07-27 11:23:31.776 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.776 I/[Gralloc](  260): leave: prime_fd=78,share_attr_fd=79
+07-27 11:23:31.800 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:31.800 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:31.820 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:31.820 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:31.825 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:31.827 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.827 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:31.828 I/[Gralloc](  269): Got handle 18 for fd 80
+07-27 11:23:31.828 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.828 I/[Gralloc](  269): leave: prime_fd=80,share_attr_fd=98
+07-27 11:23:31.828 I/[Gralloc]( 4185): Got handle 6 for fd 81
+07-27 11:23:31.828 I/[Gralloc]( 4185): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.828 I/[Gralloc]( 4185): leave: prime_fd=81,share_attr_fd=82
+07-27 11:23:31.846 V/StudioProfiler( 4185): Loaded classes: 5264
+07-27 11:23:31.878 I/[Gralloc](  260): Got handle 19 for fd 105
+07-27 11:23:31.878 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:31.878 I/[Gralloc](  260): leave: prime_fd=105,share_attr_fd=114
+07-27 11:23:31.950 E/BufferQueueProducer(  269): [com.study.heguodong/com.study.heguodong.MainActivity#0] disconnect: not connected (req=1)
+07-27 11:23:31.951 W/libEGL  ( 4185): EGLNativeWindowType 0xb016e008 disconnect failed
+07-27 11:23:31.956 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:31.957 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:31.985 I/GK      (  567): MSG_APP_TRANSITION_FINISHED
+07-27 11:23:31.989 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:31.989 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:32.119 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:32.119 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:32.138 I/GK      (  567): MSG_APP_TRANSITION_FINISHED
+07-27 11:23:32.138 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:32.138 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:32.214 I/WearableService(  974): Wearable Services stopping
+07-27 11:23:32.296 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:32.297 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:32.393 E/alsa_route(  251): set_controls() can not set ctl OUT Playback Switch to 1
+07-27 11:23:32.543 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:32.543 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:32.798 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:32.799 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:32.913 V/StudioProfiler( 4185): Tracking initialization took: 1197685537ns
+07-27 11:23:32.929 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:32.929 I/Choreographer( 4185): Skipped 61 frames!  The application may be doing too much work on its main thread.
+07-27 11:23:32.931 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:32.931 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:32.931 I/[Gralloc](  269): Got handle 7 for fd 123
+07-27 11:23:32.931 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:32.931 I/[Gralloc](  269): leave: prime_fd=123,share_attr_fd=125
+07-27 11:23:32.931 I/[Gralloc]( 4185): Got handle 1 for fd 61
+07-27 11:23:32.931 I/[Gralloc]( 4185): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:32.931 I/[Gralloc]( 4185): leave: prime_fd=61,share_attr_fd=62
+07-27 11:23:32.941 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:32.941 I/[Gralloc](  259): leave, w : 33, h : 42, format : 0x1,internal_format : 0x1, usage : 0x8933. size=8064,pixel_stride=48,byte_stride=192
+07-27 11:23:32.941 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:32.941 I/[Gralloc](  269): Got handle 8 for fd 32
+07-27 11:23:32.941 I/[Gralloc](  269): leave, w : 33, h : 42, format : 0x1,internal_format : 0x1, usage : 0x8933. size=8064,pixel_stride=48,byte_stride=192
+07-27 11:23:32.941 I/[Gralloc](  269): leave: prime_fd=32,share_attr_fd=33
+07-27 11:23:32.942 I/[Gralloc](  393): Got handle 1 for fd 252
+07-27 11:23:32.942 I/[Gralloc](  393): leave, w : 33, h : 42, format : 0x1,internal_format : 0x1, usage : 0x8933. size=8064,pixel_stride=48,byte_stride=192
+07-27 11:23:32.942 I/[Gralloc](  393): leave: prime_fd=252,share_attr_fd=253
+07-27 11:23:32.959 I/[Gralloc](  260): Got handle 1 for fd 57
+07-27 11:23:32.960 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:32.960 I/[Gralloc](  260): leave: prime_fd=57,share_attr_fd=82
+07-27 11:23:32.960 I/[Gralloc](  260): Got handle 6 for fd 41
+07-27 11:23:32.960 I/[Gralloc](  260): leave, w : 33, h : 42, format : 0x1,internal_format : 0x1, usage : 0x8933. size=8064,pixel_stride=48,byte_stride=192
+07-27 11:23:32.960 I/[Gralloc](  260): leave: prime_fd=41,share_attr_fd=85
+07-27 11:23:33.034 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:33.034 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:33.264 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:33.264 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:33.511 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:33.511 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:33.805 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:33.805 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:34.048 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:34.048 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:34.337 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:34.338 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:34.463 D/GK      (  567): MotionEvent -- 4
+07-27 11:23:34.465 D/GK      (  567): SlideBottomLayout -- dispatchTouchEvent = false
+07-27 11:23:34.491 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:34.491 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:34.561 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:34.561 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:34.581 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:23:34.581 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:34.581 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:34.592 E/ActivityManager(  393): getPackageFerformanceMode--ComponentInfo{com.study.heguodong/com.study.heguodong.MainActivity}----com.study.heguodong
+07-27 11:23:34.600 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:23:34.601 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:34.601 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:34.607 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:34.609 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.609 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:34.609 I/[Gralloc](  269): Got handle 11 for fd 135
+07-27 11:23:34.609 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.609 I/[Gralloc](  269): leave: prime_fd=135,share_attr_fd=139
+07-27 11:23:34.610 I/[Gralloc]( 4185): Got handle 2 for fd 66
+07-27 11:23:34.610 I/[Gralloc]( 4185): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.610 I/[Gralloc]( 4185): leave: prime_fd=66,share_attr_fd=67
+07-27 11:23:34.615 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:34.632 I/[Gralloc](  260): Got handle 11 for fd 58
+07-27 11:23:34.632 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.632 I/[Gralloc](  260): leave: prime_fd=58,share_attr_fd=59
+07-27 11:23:34.651 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:34.652 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:34.658 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:34.659 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.659 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:34.659 I/[Gralloc](  269): Got handle 12 for fd 118
+07-27 11:23:34.660 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.660 I/[Gralloc](  269): leave: prime_fd=118,share_attr_fd=120
+07-27 11:23:34.674 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:34.675 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.675 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:34.675 I/[Gralloc](  269): Got handle 16 for fd 141
+07-27 11:23:34.675 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.675 I/[Gralloc](  269): leave: prime_fd=141,share_attr_fd=143
+07-27 11:23:34.688 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:34.690 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.690 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:34.690 I/[Gralloc](  269): Got handle 17 for fd 131
+07-27 11:23:34.690 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.690 I/[Gralloc](  269): leave: prime_fd=131,share_attr_fd=151
+07-27 11:23:34.704 W/asset   (  567): Asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:34.705 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk
+07-27 11:23:34.705 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong.app2
+07-27 11:23:34.705 W/asset   (  567): Asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:34.705 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk
+07-27 11:23:34.705 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong.app2
+07-27 11:23:34.705 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:34.707 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.707 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:34.708 I/[Gralloc](  269): Got handle 21 for fd 146
+07-27 11:23:34.708 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.708 I/[Gralloc](  269): leave: prime_fd=146,share_attr_fd=155
+07-27 11:23:34.711 D/mali_winsys( 4185): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+07-27 11:23:34.755 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:34.757 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.757 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:34.757 I/[Gralloc](  269): Got handle 21 for fd 155
+07-27 11:23:34.757 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.757 I/[Gralloc](  269): leave: prime_fd=155,share_attr_fd=156
+07-27 11:23:34.757 I/[Gralloc]( 4185): Got handle 3 for fd 74
+07-27 11:23:34.757 I/[Gralloc]( 4185): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.757 I/[Gralloc]( 4185): leave: prime_fd=74,share_attr_fd=75
+07-27 11:23:34.770 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:34.770 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:34.789 I/GK      (  567): MSG_APP_TRANSITION_STARTING
+07-27 11:23:34.790 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:34.791 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:34.810 E/BufferQueueProducer(  269): [com.study.heguodong/com.study.heguodong.SecondActivity#0] disconnect: not connected (req=1)
+07-27 11:23:34.810 W/libEGL  ( 4185): EGLNativeWindowType 0x9566d008 disconnect failed
+07-27 11:23:34.818 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:34.818 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:34.852 I/[Gralloc](  260): Got handle 14 for fd 52
+07-27 11:23:34.852 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:34.852 I/[Gralloc](  260): leave: prime_fd=52,share_attr_fd=53
+07-27 11:23:34.859 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:34.859 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:35.022 I/GK      (  567): MSG_APP_TRANSITION_FINISHED
+07-27 11:23:35.022 I/GK      (  567): MSG_APP_TRANSITION_FINISHED
+07-27 11:23:35.023 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:35.028 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:35.029 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:35.030 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:35.030 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:35.030 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:35.048 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:35.048 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:35.081 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:35.082 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:35.266 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:35.266 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:35.564 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:35.565 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:35.820 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:35.820 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:36.058 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:36.059 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:36.102 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:36.102 I/[Gralloc](  259): leave, w : 38, h : 38, format : 0x1,internal_format : 0x1, usage : 0x8933. size=7296,pixel_stride=48,byte_stride=192
+07-27 11:23:36.102 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:36.102 I/[Gralloc](  269): Got handle 7 for fd 100
+07-27 11:23:36.102 I/[Gralloc](  269): leave, w : 38, h : 38, format : 0x1,internal_format : 0x1, usage : 0x8933. size=7296,pixel_stride=48,byte_stride=192
+07-27 11:23:36.102 I/[Gralloc](  269): leave: prime_fd=100,share_attr_fd=114
+07-27 11:23:36.103 I/[Gralloc](  393): Got handle 3 for fd 249
+07-27 11:23:36.103 I/[Gralloc](  393): leave, w : 38, h : 38, format : 0x1,internal_format : 0x1, usage : 0x8933. size=7296,pixel_stride=48,byte_stride=192
+07-27 11:23:36.103 I/[Gralloc](  393): leave: prime_fd=249,share_attr_fd=251
+07-27 11:23:36.122 I/[Gralloc](  260): Got handle 1 for fd 45
+07-27 11:23:36.122 I/[Gralloc](  260): leave, w : 38, h : 38, format : 0x1,internal_format : 0x1, usage : 0x8933. size=7296,pixel_stride=48,byte_stride=192
+07-27 11:23:36.122 I/[Gralloc](  260): leave: prime_fd=45,share_attr_fd=76
+07-27 11:23:36.125 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:36.125 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:36.207 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:36.207 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:36.290 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:36.290 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:36.576 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:36.576 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:36.835 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:36.835 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:36.934 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:36.937 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:36.937 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:36.938 I/[Gralloc](  269): Got handle 10 for fd 102
+07-27 11:23:36.938 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:36.938 I/[Gralloc](  269): leave: prime_fd=102,share_attr_fd=109
+07-27 11:23:36.938 I/[Gralloc]( 4185): Got handle 1 for fd 65
+07-27 11:23:36.938 I/[Gralloc]( 4185): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:36.939 I/[Gralloc]( 4185): leave: prime_fd=65,share_attr_fd=66
+07-27 11:23:36.966 I/[Gralloc](  260): Got handle 6 for fd 58
+07-27 11:23:36.966 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:36.966 I/[Gralloc](  260): leave: prime_fd=58,share_attr_fd=59
+07-27 11:23:36.972 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:36.975 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:36.975 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:36.975 I/[Gralloc](  269): Got handle 11 for fd 138
+07-27 11:23:36.975 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:36.975 I/[Gralloc](  269): leave: prime_fd=138,share_attr_fd=139
+07-27 11:23:36.976 I/[Gralloc]( 4185): Got handle 2 for fd 68
+07-27 11:23:36.976 I/[Gralloc]( 4185): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:36.976 I/[Gralloc]( 4185): leave: prime_fd=68,share_attr_fd=70
+07-27 11:23:36.999 I/[Gralloc](  260): Got handle 11 for fd 55
+07-27 11:23:36.999 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:36.999 I/[Gralloc](  260): leave: prime_fd=55,share_attr_fd=56
+07-27 11:23:37.018 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:37.020 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:37.020 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:37.020 I/[Gralloc](  269): Got handle 12 for fd 127
+07-27 11:23:37.020 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:37.020 I/[Gralloc](  269): leave: prime_fd=127,share_attr_fd=131
+07-27 11:23:37.021 I/[Gralloc]( 4185): Got handle 4 for fd 72
+07-27 11:23:37.021 I/[Gralloc]( 4185): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:37.021 I/[Gralloc]( 4185): leave: prime_fd=72,share_attr_fd=73
+07-27 11:23:37.049 I/[Gralloc](  260): Got handle 16 for fd 74
+07-27 11:23:37.049 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:37.049 I/[Gralloc](  260): leave: prime_fd=74,share_attr_fd=75
+07-27 11:23:37.074 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:37.074 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:37.100 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:37.100 I/[Gralloc](  259): leave, w : 33, h : 42, format : 0x1,internal_format : 0x1, usage : 0x8933. size=8064,pixel_stride=48,byte_stride=192
+07-27 11:23:37.100 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:37.100 I/[Gralloc](  269): Got handle 16 for fd 86
+07-27 11:23:37.100 I/[Gralloc](  269): leave, w : 33, h : 42, format : 0x1,internal_format : 0x1, usage : 0x8933. size=8064,pixel_stride=48,byte_stride=192
+07-27 11:23:37.100 I/[Gralloc](  269): leave: prime_fd=86,share_attr_fd=120
+07-27 11:23:37.101 I/[Gralloc](  393): Got handle 2 for fd 255
+07-27 11:23:37.101 I/[Gralloc](  393): leave, w : 33, h : 42, format : 0x1,internal_format : 0x1, usage : 0x8933. size=8064,pixel_stride=48,byte_stride=192
+07-27 11:23:37.101 I/[Gralloc](  393): leave: prime_fd=255,share_attr_fd=257
+07-27 11:23:37.118 I/[Gralloc](  260): Got handle 1 for fd 45
+07-27 11:23:37.118 I/[Gralloc](  260): leave, w : 33, h : 42, format : 0x1,internal_format : 0x1, usage : 0x8933. size=8064,pixel_stride=48,byte_stride=192
+07-27 11:23:37.118 I/[Gralloc](  260): leave: prime_fd=45,share_attr_fd=61
+07-27 11:23:37.168 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:37.168 I/[Gralloc](  259): leave, w : 38, h : 38, format : 0x1,internal_format : 0x1, usage : 0x8933. size=7296,pixel_stride=48,byte_stride=192
+07-27 11:23:37.168 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:37.171 I/[Gralloc](  269): Got handle 6 for fd 34
+07-27 11:23:37.171 I/[Gralloc](  269): leave, w : 38, h : 38, format : 0x1,internal_format : 0x1, usage : 0x8933. size=7296,pixel_stride=48,byte_stride=192
+07-27 11:23:37.171 I/[Gralloc](  269): leave: prime_fd=34,share_attr_fd=79
+07-27 11:23:37.173 I/[Gralloc](  393): Got handle 1 for fd 252
+07-27 11:23:37.173 I/[Gralloc](  393): leave, w : 38, h : 38, format : 0x1,internal_format : 0x1, usage : 0x8933. size=7296,pixel_stride=48,byte_stride=192
+07-27 11:23:37.173 I/[Gralloc](  393): leave: prime_fd=252,share_attr_fd=253
+07-27 11:23:37.187 I/[Gralloc](  260): Got handle 1 for fd 45
+07-27 11:23:37.187 I/[Gralloc](  260): leave, w : 38, h : 38, format : 0x1,internal_format : 0x1, usage : 0x8933. size=7296,pixel_stride=48,byte_stride=192
+07-27 11:23:37.187 I/[Gralloc](  260): leave: prime_fd=45,share_attr_fd=72
+07-27 11:23:37.305 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:37.305 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:37.582 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:37.583 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:37.822 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:37.822 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:38.069 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:38.069 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:38.315 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:38.315 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:38.398 D/GK      (  567): MotionEvent -- 4
+07-27 11:23:38.399 D/GK      (  567): SlideBottomLayout -- dispatchTouchEvent = false
+07-27 11:23:38.409 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:38.409 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:38.515 E/heguodong( 4185): ---------------------  201808191304 22222222--------------------- startActivity ---------------------
+07-27 11:23:38.521 I/zygote  ( 4185): Do partial code cache collection, code=51KB, data=61KB
+07-27 11:23:38.521 I/ActivityManager(  393): START u0 {cmp=com.study.heguodong.app2/.MainActivity (has extras)} from uid 10087
+07-27 11:23:38.522 I/zygote  ( 4185): After code cache collection, code=51KB, data=61KB
+07-27 11:23:38.522 I/zygote  ( 4185): Increasing code cache capacity to 256KB
+07-27 11:23:38.523 E/ActivityManager(  393): getPackageFerformanceMode--ComponentInfo{com.study.heguodong.app2/com.study.heguodong.app2.MainActivity}----com.study.heguodong.app2
+07-27 11:23:38.537 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:23:38.537 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:38.537 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:38.546 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:38.547 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:38.549 E/ActivityManager(  393): getPackageFerformanceMode--ComponentInfo{com.study.heguodong.app2/com.study.heguodong.app2.MainActivity}----com.study.heguodong.app2
+07-27 11:23:38.553 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:23:38.562 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:38.562 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:38.570 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:38.570 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:38.645 D/AndroidRuntime( 4095): Shutting down VM
+--------- beginning of crash
+07-27 11:23:38.656 E/AndroidRuntime( 4095): FATAL EXCEPTION: main
+07-27 11:23:38.656 E/AndroidRuntime( 4095): Process: com.study.heguodong.app2, PID: 4095
+07-27 11:23:38.656 E/AndroidRuntime( 4095): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.study.heguodong.app2/com.study.heguodong.app2.MainActivity}: java.lang.RuntimeException: Parcelable encountered ClassNotFoundException reading a Serializable object (name = com.study.heguodong.Boom)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2778)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2856)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1589)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.os.Looper.loop(Looper.java:164)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.app.ActivityThread.main(ActivityThread.java:6494)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at java.lang.reflect.Method.invoke(Native Method)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): Caused by: java.lang.RuntimeException: Parcelable encountered ClassNotFoundException reading a Serializable object (name = com.study.heguodong.Boom)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.os.Parcel.readSerializable(Parcel.java:3011)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.os.Parcel.readValue(Parcel.java:2797)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3115)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:273)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.os.BaseBundle.unparcel(BaseBundle.java:226)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.os.BaseBundle.get(BaseBundle.java:479)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at com.study.heguodong.app2.MainActivity.onCreate(MainActivity.java:24)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.app.Activity.performCreate(Activity.java:7026)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.app.Activity.performCreate(Activity.java:7017)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1214)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2731)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	... 9 more
+07-27 11:23:38.656 E/AndroidRuntime( 4095): Caused by: java.lang.ClassNotFoundException: com.study.heguodong.Boom
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at java.lang.Class.classForName(Native Method)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at java.lang.Class.forName(Class.java:453)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.os.Parcel$2.resolveClass(Parcel.java:2997)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1616)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1521)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1777)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1354)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:374)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at android.os.Parcel.readSerializable(Parcel.java:3005)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	... 19 more
+07-27 11:23:38.656 E/AndroidRuntime( 4095): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.study.heguodong.Boom" on path: DexPathList[[zip file "/data/app/com.study.heguodong.app2-0IMCQZeY2sYlek-2nsx4sA==/base.apk"],nativeLibraryDirectories=[/data/app/com.study.heguodong.app2-0IMCQZeY2sYlek-2nsx4sA==/lib/arm, /system/lib, /vendor/lib]]
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:125)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+07-27 11:23:38.656 E/AndroidRuntime( 4095): 	... 28 more
+07-27 11:23:38.667 W/asset   (  567): Asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:38.667 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk
+07-27 11:23:38.667 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong.app2
+07-27 11:23:38.667 W/ActivityManager(  393):   Force finishing activity com.study.heguodong.app2/.MainActivity
+07-27 11:23:38.667 W/asset   (  567): Asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:38.668 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk
+07-27 11:23:38.668 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong.app2
+07-27 11:23:38.670 W/ActivityManager(  393):   Force finishing activity com.study.heguodong/.MainActivity
+07-27 11:23:38.677 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:23:38.677 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:38.677 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:38.696 I/Process ( 4095): Sending signal. PID: 4095 SIG: 9
+07-27 11:23:38.779 W/asset   (  567): Asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:38.779 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk
+07-27 11:23:38.779 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong.app2
+07-27 11:23:38.780 W/asset   (  567): Asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk is neither a directory nor file (type=1).
+07-27 11:23:38.780 E/ResourcesManager(  567): failed to add asset path /data/app/com.study.heguodong.app2-VDQ_eibxDcJZMMEpVmwSJQ==/base.apk
+07-27 11:23:38.780 W/PackageManager(  567): Failure retrieving resources for com.study.heguodong.app2
+07-27 11:23:38.803 W/InputDispatcher(  393): channel '6581d50 com.study.heguodong.app2/com.study.heguodong.app2.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+07-27 11:23:38.803 E/InputDispatcher(  393): channel '6581d50 com.study.heguodong.app2/com.study.heguodong.app2.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+07-27 11:23:38.815 I/WindowManager(  393): WIN DEATH: Window{6581d50 u0 com.study.heguodong.app2/com.study.heguodong.app2.MainActivity}
+07-27 11:23:38.816 W/InputDispatcher(  393): Attempted to unregister already unregistered input channel '6581d50 com.study.heguodong.app2/com.study.heguodong.app2.MainActivity (server)'
+07-27 11:23:38.816 I/ActivityManager(  393): Process com.study.heguodong.app2 (pid 4095) has died: fore TOP 
+07-27 11:23:38.817 W/system_server(  393): kill(-4095, 9) failed: No such process
+07-27 11:23:38.818 I/system_server(  393): Successfully killed process cgroup uid 10086 pid 4095 in 1ms
+07-27 11:23:38.820 E/ActivityManager(  393): getPackageFerformanceMode--ComponentInfo{com.study.heguodong.app2/com.study.heguodong.app2.MainActivity}----com.study.heguodong.app2
+07-27 11:23:38.824 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:38.829 I/GK      (  567): MSG_APP_TRANSITION_PENDING
+07-27 11:23:38.839 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:38.839 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:38.839 I/ActivityManager(  393): Start proc 4375:com.study.heguodong.app2/u0a86 for activity com.study.heguodong.app2/.MainActivity
+07-27 11:23:38.846 I/zygote  ( 4375): Late-enabling -Xcheck:jni
+07-27 11:23:38.848 W/ActivityManager(  393): setHasOverlayUi called on unknown pid: 4095
+07-27 11:23:38.859 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:38.860 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:38.875 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:38.875 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:38.889 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:38.891 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x933. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:38.891 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:38.891 I/[Gralloc](  269): Got handle 17 for fd 146
+07-27 11:23:38.891 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x933. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:38.891 I/[Gralloc](  269): leave: prime_fd=146,share_attr_fd=151
+07-27 11:23:38.892 I/[Gralloc](  393): Got handle 4 for fd 260
+07-27 11:23:38.892 I/[Gralloc](  393): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x933. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:38.892 I/[Gralloc](  393): leave: prime_fd=260,share_attr_fd=261
+07-27 11:23:38.925 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:38.925 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:38.939 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:38.939 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:38.947 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:38.950 I/GK      (  567): MSG_APP_TRANSITION_STARTING
+07-27 11:23:38.952 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:38.956 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:38.957 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:38.961 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:38.969 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:38.978 I/[Gralloc](  260): Got handle 18 for fd 41
+07-27 11:23:38.978 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x933. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:38.978 I/[Gralloc](  260): leave: prime_fd=41,share_attr_fd=80
+07-27 11:23:39.006 E/BufferQueueProducer(  269): [com.study.heguodong/com.study.heguodong.MainActivity#0] disconnect: not connected (req=1)
+07-27 11:23:39.006 W/libEGL  ( 4185): EGLNativeWindowType 0xb016e008 disconnect failed
+07-27 11:23:39.006 D/OpenGLRenderer( 4185): endAllActiveAnimators on 0x95deea00 (RippleDrawable) with handle 0x95a796d0
+07-27 11:23:39.032 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:39.032 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:39.105 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:39.105 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:39.166 E/heguodong( 4375): ---------------------  201808191304 22222222--------------------- 未传递过来数据 ---------------------
+07-27 11:23:39.198 I/GK      (  567): MSG_APP_TRANSITION_FINISHED
+07-27 11:23:39.203 D/OpenGLRenderer( 4375): HWUI GL Pipeline
+07-27 11:23:39.214 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:39.215 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:39.248 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:39.249 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:39.251 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:39.252 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:39.252 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:39.258 I/mali_so ( 4375): [File] : hardware/rockchip/mali/mali_so_src_of_midgard/driver/product/base/src/mali_base_kbase.c; [Line] : 876; [Func] : base_context_deal_with_version_affairs_rk_ext;
+07-27 11:23:39.258 I/mali_so ( 4375): arm_release_ver of this mali_so is 'r18p0-01rel0', rk_so_ver is '9@0'.
+07-27 11:23:39.259 D/mali_so ( 4375): [File] : hardware/rockchip/mali/mali_so_src_of_midgard/driver/product/base/src/mali_base_kbase.c; [Line] : 881; [Func] : base_context_deal_with_version_affairs_rk_ext;
+07-27 11:23:39.259 D/mali_so ( 4375): current process is NOT sf, to bail out.
+07-27 11:23:39.271 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:39.272 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:39.272 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:39.272 I/[Gralloc](  269): Got handle 10 for fd 136
+07-27 11:23:39.272 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:39.272 I/[Gralloc](  269): leave: prime_fd=136,share_attr_fd=138
+07-27 11:23:39.277 I/com.study.heguodong.app2( 4375): android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+07-27 11:23:39.278 I/OpenGLRenderer( 4375): Initialized EGL, version 1.4
+07-27 11:23:39.278 D/OpenGLRenderer( 4375): Swap behavior 0
+07-27 11:23:39.289 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:39.290 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:39.290 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:39.291 I/[Gralloc](  269): Got handle 11 for fd 115
+07-27 11:23:39.291 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:39.291 I/[Gralloc](  269): leave: prime_fd=115,share_attr_fd=117
+07-27 11:23:39.297 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:39.297 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:39.303 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:39.305 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:39.305 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:39.305 I/[Gralloc](  269): Got handle 18 for fd 140
+07-27 11:23:39.305 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:39.305 I/[Gralloc](  269): leave: prime_fd=140,share_attr_fd=141
+07-27 11:23:39.317 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:39.319 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:39.319 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:39.319 I/[Gralloc](  269): Got handle 20 for fd 154
+07-27 11:23:39.319 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0x900. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:39.319 I/[Gralloc](  269): leave: prime_fd=154,share_attr_fd=155
+07-27 11:23:39.320 D/mali_winsys( 4375): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+07-27 11:23:39.336 I/GK      (  567): MSG_APP_TRANSITION_FINISHED
+07-27 11:23:39.336 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:39.336 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:39.354 I/GK      (  567): MSG_SHOW_IME_BUTTON
+07-27 11:23:39.387 I/[Gralloc](  259): Got fd 12 for handle 1
+07-27 11:23:39.388 I/[Gralloc](  259): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:39.389 I/[Gralloc](  259): leave: prime_fd=12,share_attr_fd=13
+07-27 11:23:39.389 I/[Gralloc](  269): Got handle 20 for fd 157
+07-27 11:23:39.389 I/[Gralloc](  269): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:39.389 I/[Gralloc](  269): leave: prime_fd=157,share_attr_fd=158
+07-27 11:23:39.392 I/[Gralloc]( 4375): Got handle 1 for fd 56
+07-27 11:23:39.392 I/[Gralloc]( 4375): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:39.392 I/[Gralloc]( 4375): leave: prime_fd=56,share_attr_fd=57
+07-27 11:23:39.404 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:39.404 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:39.408 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:39.409 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:39.409 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:39.411 I/ActivityManager(  393): Displayed com.study.heguodong.app2/.MainActivity: +582ms (total +855ms)
+07-27 11:23:39.421 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:39.421 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:39.426 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:39.426 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:39.450 I/[Gralloc](  260): Got handle 6 for fd 51
+07-27 11:23:39.450 I/[Gralloc](  260): leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+07-27 11:23:39.450 I/[Gralloc](  260): leave: prime_fd=51,share_attr_fd=52
+07-27 11:23:39.529 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:39.529 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:39.594 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:39.594 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:39.598 I/GK      (  567): MSG_SET_TOP_APP_HIDES_STATUS_BAR --false
+07-27 11:23:39.599 I/GK      (  567): MSG_TOP_APP_WINDOW_CHANGED
+07-27 11:23:39.800 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:39.800 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:40.036 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:40.036 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:40.316 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:40.316 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:40.567 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:40.568 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:40.807 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:40.807 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:41.068 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:41.068 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:41.311 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:41.311 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:41.584 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:41.584 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:41.825 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:41.825 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:42.079 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:42.079 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:42.312 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:42.312 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:42.560 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:42.560 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:42.828 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:42.828 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:43.075 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:43.075 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:43.311 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:43.311 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:43.580 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:43.580 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:43.820 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:43.820 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:44.015 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:44.015 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:44.333 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:44.333 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:44.579 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:44.579 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:44.823 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:44.823 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:45.089 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:45.089 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:45.309 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:45.309 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:45.572 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:45.572 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:45.813 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:45.813 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:46.073 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:46.073 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:46.319 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:46.319 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:46.566 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:46.566 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:46.818 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:46.818 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:47.083 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:47.083 W/android.os.Debug(  393): failed to get memory consumption info: -1
+07-27 11:23:47.327 E/memtrack(  393): Couldn't load memtrack module
+07-27 11:23:47.327 W/android.os.Debug(  393): failed to get memory consumption info: -1
